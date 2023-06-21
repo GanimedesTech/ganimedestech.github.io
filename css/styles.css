@@ -11361,3 +11361,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 .alinhar-esquerda {
   text-align: left;
 }
+
+.whats {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+}
