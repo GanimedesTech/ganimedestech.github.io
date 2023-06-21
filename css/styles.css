@@ -74,7 +74,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #8f287b;
-  --bs-link-hover-color: #cca000;
+  --bs-link-hover-color: #8f287b;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff4cc;
 }
@@ -2968,7 +2968,7 @@ textarea.form-control-lg {
 
 .btn-dark {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #212529;
+  --bs-btn-bg: #1a1a1a;
   --bs-btn-border-color: #212529;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #424649;
@@ -5314,9 +5314,9 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   width: 100%;
-  color: var(--bs-modal-color);
+  color: #CCCCCC;
   pointer-events: auto;
-  background-color: var(--bs-modal-bg);
+  background-color: #333333;
   background-clip: padding-box;
   border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
   border-radius: var(--bs-modal-border-radius);
@@ -8016,6 +8016,7 @@ textarea.form-control-lg {
 
 .text-uppercase {
   text-transform: uppercase !important;
+  color: #FFF;
 }
 
 .text-capitalize {
@@ -11347,4 +11348,16 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #submitButton {
   margin-top: 25px;
+}
+
+.link-uleader {
+  color: #FFF;
+}
+
+.paragrafo-texto {
+  text-align: justify;
+}
+
+.alinhar-esquerda {
+  text-align: left;
 }
