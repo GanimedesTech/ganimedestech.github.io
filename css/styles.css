@@ -601,6 +601,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .img-thumbnail {
@@ -10930,7 +10931,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #333;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10996,15 +10997,15 @@ header.masthead .masthead-heading {
   max-width: 26rem;
   align-items: center;
   justify-content: center;
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(102,102,102,1);
-  -moz-box-shadow: 0px 0px 15px 0px rgba(102,102,102,1);
-  box-shadow: 0px 0px 15px 0px rgba(102,102,102,1);
+  border: #8F287B solid 2px;
+  border-radius: 10px;
 }
 /* MEXE NA OPACIDADE DO BATAO DENTRO DO CARD */
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   margin: 0 auto; 
+  border-radius: 10px 0 0 10px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -11012,11 +11013,12 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(26, 26, 26);
+  background: rgba(26, 26, 26, 0.6);
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
+  border-radius: 10px 10px 0 0;
 }
 /* ALTERA O + QUE TEM DENTRO DO CARD */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -11035,6 +11037,7 @@ header.masthead .masthead-heading {
   padding: 1.5rem;
   text-align: center;
   background-color: #1a1a1a;
+  border-radius: 0 0 10px 10px;
   
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
