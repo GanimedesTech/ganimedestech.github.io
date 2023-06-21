@@ -11348,3 +11348,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 #submitButton {
   margin-top: 25px;
 }
+
+.whats {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index:
+}
