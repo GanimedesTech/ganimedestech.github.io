@@ -61,7 +61,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #fff;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -6747,10 +6747,10 @@ textarea.form-control-lg {
 }
 
 .link-dark {
-  color: #212529 !important;
+  color: #B3B3B3 !important;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #1a1e21 !important;
+  color: #8F287B !important;
 }
 
 .ratio {
@@ -8093,7 +8093,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #B3B3B3 !important;
 }
 
 .text-black-50 {
@@ -9781,6 +9781,7 @@ textarea.form-control-lg {
   }
   .text-lg-start {
     text-align: left !important;
+    color: #B3B3B3;
   }
   .text-lg-end {
     text-align: right !important;
@@ -10881,7 +10882,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #333333;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
